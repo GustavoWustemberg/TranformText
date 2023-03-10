@@ -7,11 +7,11 @@ while x < 4:
                   '3 - Capitalize\n'
                   '4 - Close\n'))
     if x == 1:
-        text = input('Digite seu texto: ').upper()
+        text = input('Enter your text: ').upper()
         print(text)
     elif x == 2:
-        text = input('Digite seu texto: ').lower()
+        text = input('Enter your text: ').lower()
         print(text)
     elif x == 3:
-        text = input('Digite seu texto: ').capitalize()
+        text = input('Enter your text: ').capitalize()
         print(text)
